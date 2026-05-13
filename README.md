@@ -1,38 +1,47 @@
-# vue-dynamic-list-of-posts
+# Vue Task Manager App
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern and responsive Todo application built with Vue 3, TypeScript, and Vite.
 
-## Recommended IDE Setup
+## Live Demo
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+🔗 https://torianykhanna.github.io/vue-task-manager-app/
 
-## Recommended Browser Setup
+---
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Technologies
 
-## Customize configuration
+- Vue 3
+- TypeScript
+- Vite
+- SCSS
+- Composition API
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## Features
 
-```sh
-npm install
-```
+- Add new tasks
+- Edit task titles
+- Delete tasks
+- Toggle task completion
+- Toggle all tasks
+- Clear completed tasks
+- Filter tasks:
+  - All
+  - Active
+  - Completed
+- Error handling
+- Loading states
 
-### Compile and Hot-Reload for Development
+---
 
-```sh
-npm run dev
-```
+## Project Structure
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+```text
+src/
+├── api/
+├── components/
+├── types/
+├── utils/
+├── assets/
+└── App.vue
